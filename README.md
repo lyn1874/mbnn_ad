@@ -1,6 +1,7 @@
 ### Multi-branch Neural Network for Anomaly Detection in Adverse Lighting and Weather Conditions
 
-This repository provides the implementation for our paper [**Multi-branch Neural Network for Anomaly Detection in Adverse Lightning and Weather Conditions** (Bo Li, Sam Leroux, and Pieter Simoens)](). We experimentally show that by making the background subtraction learnable and by adding multiple branches, we are better at detecting anomalies in scenes with varying visibility.
+This repository provides the implementation for our paper [**Multi-branch Neural Networks for Video Anomaly Detection in Adverse
+Lighting and Weather Conditions** (Bo Li, Sam Leroux, and Pieter Simoens)](https://openaccess.thecvf.com/content/WACV2022/papers/Leroux_Multi-Branch_Neural_Networks_for_Video_Anomaly_Detection_in_Adverse_Lighting_WACV_2022_paper.pdf). We experimentally show that by making the background subtraction learnable and by adding multiple branches, we are better at detecting anomalies in scenes with varying visibility.
 
 ![](imgs/bg_interpolation.gif)
 
@@ -13,7 +14,7 @@ This repository provides the implementation for our paper [**Multi-branch Neural
 #### Installation and data preparation
 1. Clone this repo and prepare the environment
 ```
-git clone https://gitlab.ilabt.imec.be/bobli/mbnn_ad.git
+git clone https://github.com/lyn1874/mbnn_ad.git
 cd mbnn_ad
 ./requirement.sh
 ```
@@ -64,3 +65,17 @@ Example:
 ##### Credits
 - https://www.skylinewebcams.com/en/webcam/belgique/flandres/bruges/markt.html
 - https://github.com/UjjwalSaxena/Automold--Road-Augmentation-Library 
+
+
+##### Citation
+If you use the code, please cite
+```
+@InProceedings{Leroux_2022_WACV,
+    author    = {Leroux, Sam and Li, Bo and Simoens, Pieter},
+    title     = {Multi-Branch Neural Networks for Video Anomaly Detection in Adverse Lighting and Weather Conditions},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {January},
+    year      = {2022},
+    pages     = {2358-2366}
+}
+```
